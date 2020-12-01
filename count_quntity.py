@@ -42,5 +42,7 @@ cp_quality("data/Label_EyeQ_train.csv",1)
 cp_quality("data/Label_EyeQ_test.csv",1)
 '''
 
-random_split("/data1/qilei_chen/DATA/DB_NATURAL/data3/good","/data1/qilei_chen/DATA/DB_NATURAL/data3/",0)
-random_split("/data1/qilei_chen/DATA/DB_NATURAL/data3/reject","/data1/qilei_chen/DATA/DB_NATURAL/data3/",1)
+#random_split("/data1/qilei_chen/DATA/DB_NATURAL/data3/good","/data1/qilei_chen/DATA/DB_NATURAL/data3/",0)
+#random_split("/data1/qilei_chen/DATA/DB_NATURAL/data3/reject","/data1/qilei_chen/DATA/DB_NATURAL/data3/",1)
+
+random_split("/data1/qilei_chen/DATA/DB_NATURAL/data2/low_quality/","/data1/qilei_chen/DATA/DB_NATURAL/data2/",1)
