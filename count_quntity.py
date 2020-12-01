@@ -4,9 +4,9 @@ import os
 def cp_reject(csv_file):
 
     if "test" in csv_file:
-        dataset = "test"
-    elif "train" in csv_file:
         dataset = "train"
+    elif "train" in csv_file:
+        dataset = "test"
     else:
         print("No Action!")
         return 
