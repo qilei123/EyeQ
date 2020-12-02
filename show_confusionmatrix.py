@@ -14,7 +14,7 @@ def show_records(records_dir):
 
         label = int(eles[1])
 
-        if label>=counts:
+        if label>=len(counts):
             counts.append(1)
         else:
             counts[label]+=1
