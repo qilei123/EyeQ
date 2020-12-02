@@ -24,7 +24,7 @@ def show_records(records_dir):
     print(counts)
 
 projects = {"binary":[0,1],"multilabel":[0,1,2,3,4,5]}
-model_names = ["vgg11","inception3","densenet121"]
+model_names = ["vgg11","densenet121","inception3"]
 
 for key in projects:
     for model_name in model_names:
