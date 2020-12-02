@@ -31,5 +31,6 @@ for key in projects:
     for model_name in model_names:
         for label in projects[key]:
             records_dir = os.path.join("/data1/qilei_chen/DATA/gastro",key,model_name,"best.model_"+str(label)+".txt")
+            show_records(records_dir)
 #show_records("/data1/qilei_chen/DATA/gastro/binary/vgg11/best.model_0.txt")
 #show_records("/data1/qilei_chen/DATA/gastro/binary/vgg11/best.model_1.txt")
